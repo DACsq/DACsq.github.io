@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "CV"
+title: "简历"
 permalink: /cv/
 author_profile: true
 redirect_from:
@@ -9,56 +9,58 @@ redirect_from:
 
 {% include base_path %}
 
-Education
+个人信息
 ======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+- **姓名**：董桉池
+- **出生年月**：2001 年 2 月
+- **学历**：硕士研究生（在读）
+- **求职意向**：具身智能算法实习生
+- **邮箱**：<donganchi@outlook.com>
+- **电话**：176-4200-5026
 
-Work experience
+教育背景
 ======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+* **北京邮电大学**，信息与通信工程，硕士研究生，2024.09 – 至今
+* **延边大学**，通信工程，本科，2019.09 – 2023.06
+* **核心课程**：信息论、深度学习、数字信号处理、机器学习、通信原理
 
-* Fall 2015: Research Assistant
-  * GitHub University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+科研项目
+======
+* **国家重点研发计划 · 语义通信外场试验网具身智能项目**
+  * 项目背景：研究并实现多模态大模型在通信场景中的具身落地。
+  * 主要工作：
+    * 负责 **VLA 方向**，基于 **OpenVLA-OFT** 进行任务适配微调；
+    * 构建 **低分辨率 / 裁剪 / 压缩失真** 等受限视觉输入下的对照评测流程；
+    * 在 **LIBERO** 任务上分析模型在不同输入条件下的成功率与动作稳定性；
+    * 参与 **ARX5 机械臂平台** 的实机部署与联调验证。
 
-* Summer 2015: Research Assistant
-  * GitHub University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-  
-Skills
-======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* **6G 通信与智能融合项目（中国移动场景）**
+  * 项目背景：构建融合视频语义压缩、特征传输与智能决策的闭环系统。
+  * 主要工作：
+    * 基于 **GPT-4o** 实现高层任务理解、策略规划与动作生成；
+    * 结合链路状态与历史轨迹完成算法切换与算力调度；
+    * 参与时空语义特征提取、跨帧冗余压缩、特征传输与接收端重建流程开发；
+    * 完成系统闭环贯通与在线验证。
 
-Publications
+技能特长
 ======
-  <ul>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Talks
+* **编程语言**：熟悉 Python、C，可独立完成算法实现、模型训练、评测脚本开发与实验流程搭建。
+* **VLA 与具身模型**：熟悉 OpenVLA、OpenVLA-OFT、π0、π0.5 等开源 VLA 架构，具备微调经验，
+  理解 VLA 模型的训练、推理与任务执行流程。
+* **仿真与实机平台**：熟悉 MuJoCo、LIBERO、CALVIN 等仿真平台，能够开展具身操作任务复现、
+  模型评测与鲁棒性测试；了解 ROS2，具备实机机械臂基础部署、接口适配与联调经验。
+* **多模态大模型**：熟悉 CLIP、Qwen-VL 等多模态大模型，基于 **Qwen3-VL** 构建并训练过 VLA 模型，
+  具备模型训练、对比实验设计、性能评测与部署适配经验。
+* **通信基础**：熟悉通信系统基本原理及图像、视频压缩传输方法，
+  对通信与人工智能融合相关方法（如 **JSCC**）有过复现经验。
+
+科研成果
 ======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
-  
-Teaching
+<ul>{% for post in site.publications reversed %}
+  {% include archive-single-cv.html %}
+{% endfor %}</ul>
+
+荣誉奖励
 ======
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
+* 2024–2025 学年 **一等奖学金**
+* 2025–2026 学年 **二等奖学金**
